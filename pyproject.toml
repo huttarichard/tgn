@@ -1,0 +1,18 @@
+[project]
+name = "kgtest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "kgclient",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "pykeen>=1.11.1",
+    "scipy>=1.16.3",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv.sources]
+kgclient = { url = "http://kg.agenticresearch.info/python/kgclient-0.0.1-py3-none-any.whl" }

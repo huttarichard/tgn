@@ -56,5 +56,4 @@ The new node test dataset has 5320 interactions, involving 3834 different nodes
 /Users/richard/Projects/agentic/kgnn/./predict.py:195: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
   score = float(scores[j])
 Wrote predictions: results/kg-kgclient/predicted_edges.csv
-(kgnn)
 ```
